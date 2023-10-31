@@ -7,7 +7,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID", "21525441"))
 	API_HASH = os.environ.get("API_HASH", "152e94d23ca0b3cc96a2c1278b967ca4")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6438316243:AAEgX9xGodNDq0PgYkzFfL4ozNp5nRa9s-8")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "@SaiFilestoreBot")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "SaiFilestoreBot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001949670058"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1966376217"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://filestore:filestore@cluster0.izqfu2d.mongodb.net/?retryWrites=true&w=majority")
